@@ -1,3 +1,15 @@
+// Linear Search in Java
+// Linear search is used to search a key element from multiple elements. Linear search is less used today because it is slower than binary search and hashing.
+
+// Algorithm:
+
+// Step 1: Traverse the array
+// Step 2: Match the key element with array element
+// Step 3: If key element is found, return the index position of the array element
+// Step 4: If key element is not found, return -1
+// Let's see an example of linear search in java where we are going to search an element sequentially from an array.
+
+
 public class LinearSearch {
     
         public static int linearSearch(int[] arr, int key){    
